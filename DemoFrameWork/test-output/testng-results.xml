@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Page Title: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+    </line>
+    <line>
+      <![CDATA[Expected Autosuggestion count is 10]]>
+    </line>
+    <line>
+      <![CDATA[Actual Autosuggestion count is 10]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+    </line>
+    <line>
+      <![CDATA[Autosuggestion count is 10]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Amazon.in: wings of fire book 6: Books]]>
+    </line>
+    <line>
+      <![CDATA[Buy Wings of Fire #06: Moon Rising Book Online at Low Prices in India | Wings of Fire #06: Moon Rising Reviews & Ratings - Amazon.in]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59801" started-at="2020-04-15T17:24:27Z" finished-at="2020-04-15T17:25:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="59801" started-at="2020-04-15T17:24:27Z" finished-at="2020-04-15T17:25:27Z">
+      <class name="com.TestScripts.SearchAutoSuggTest">
+        <test-method status="PASS" signature="connectDb()[pri:0, instance:com.TestScripts.SearchAutoSuggTest@29774679]" name="connectDb" is-config="true" duration-ms="22" started-at="2020-04-15T17:24:27Z" finished-at="2020-04-15T17:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDb -->
+        <test-method status="PASS" signature="BrowserLaunch()[pri:0, instance:com.TestScripts.SearchAutoSuggTest@29774679]" name="BrowserLaunch" is-config="true" duration-ms="23866" started-at="2020-04-15T17:24:27Z" finished-at="2020-04-15T17:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method status="PASS" signature="AutoSuggestionCount()[pri:0, instance:com.TestScripts.SearchAutoSuggTest@29774679]" name="AutoSuggestionCount" duration-ms="8881" started-at="2020-04-15T17:24:51Z" finished-at="2020-04-15T17:25:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Title: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+            </line>
+            <line>
+              <![CDATA[Expected Autosuggestion count is 10]]>
+            </line>
+            <line>
+              <![CDATA[Actual Autosuggestion count is 10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AutoSuggestionCount -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.TestScripts.SearchAutoSuggTest@29774679]" name="login" is-config="true" duration-ms="0" started-at="2020-04-15T17:24:51Z" finished-at="2020-04-15T17:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="BrowserClose()[pri:0, instance:com.TestScripts.SearchAutoSuggTest@29774679]" name="BrowserClose" is-config="true" duration-ms="664" started-at="2020-04-15T17:25:00Z" finished-at="2020-04-15T17:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.TestScripts.SearchAutoSuggTest@29774679]" name="logout" is-config="true" duration-ms="0" started-at="2020-04-15T17:25:00Z" finished-at="2020-04-15T17:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="DBConnectionClose()[pri:0, instance:com.TestScripts.SearchAutoSuggTest@29774679]" name="DBConnectionClose" is-config="true" duration-ms="0" started-at="2020-04-15T17:25:28Z" finished-at="2020-04-15T17:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DBConnectionClose -->
+      </class> <!-- com.TestScripts.SearchAutoSuggTest -->
+      <class name="com.TestScripts.SelectBookfrmRecordsTest">
+        <test-method status="PASS" signature="BrowserLaunch()[pri:0, instance:com.TestScripts.SelectBookfrmRecordsTest@3ffc5af1]" name="BrowserLaunch" is-config="true" duration-ms="12987" started-at="2020-04-15T17:25:01Z" finished-at="2020-04-15T17:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.TestScripts.SelectBookfrmRecordsTest@3ffc5af1]" name="login" is-config="true" duration-ms="0" started-at="2020-04-15T17:25:14Z" finished-at="2020-04-15T17:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="SelectItemfrmRecords()[pri:0, instance:com.TestScripts.SelectBookfrmRecordsTest@3ffc5af1]" name="SelectItemfrmRecords" duration-ms="13057" started-at="2020-04-15T17:25:14Z" finished-at="2020-04-15T17:25:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Title: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+            </line>
+            <line>
+              <![CDATA[Autosuggestion count is 10]]>
+            </line>
+            <line>
+              <![CDATA[Page Title: Amazon.in: wings of fire book 6: Books]]>
+            </line>
+            <line>
+              <![CDATA[Buy Wings of Fire #06: Moon Rising Book Online at Low Prices in India | Wings of Fire #06: Moon Rising Reviews & Ratings - Amazon.in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectItemfrmRecords -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.TestScripts.SelectBookfrmRecordsTest@3ffc5af1]" name="logout" is-config="true" duration-ms="1" started-at="2020-04-15T17:25:27Z" finished-at="2020-04-15T17:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="BrowserClose()[pri:0, instance:com.TestScripts.SelectBookfrmRecordsTest@3ffc5af1]" name="BrowserClose" is-config="true" duration-ms="45" started-at="2020-04-15T17:25:27Z" finished-at="2020-04-15T17:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- com.TestScripts.SelectBookfrmRecordsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
